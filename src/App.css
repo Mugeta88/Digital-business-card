@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.card-container {
+    background-color: #FFFFFF;
+    width: 320px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
