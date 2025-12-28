@@ -12,7 +12,12 @@ body {
 .card-container {
     background-color: #FFFFFF;
     width: 320px;
+    height: 800px;
     padding: 24px;
     border-radius: 12px;
     text-align: center;
+}
+
+img {
+    width: 320px;
 }
