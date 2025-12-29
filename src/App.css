@@ -11,13 +11,50 @@ body {
 
 .card-container {
     background-color: #FFFFFF;
-    width: 320px;
+    width: 350px;
     height: 800px;
-    padding: 24px;
     border-radius: 12px;
     text-align: center;
 }
 
-img {
-    width: 320px;
+main > img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.email-btn {
+    padding: 7px 20px;
+    margin-right: 17px;
+    border-radius: 7px;
+    background-color: white;
+    border: #D5D4D8 solid 1px;
+}
+
+.linkedIn-btn {
+    padding: 6px 20px;
+    border-radius: 7px;
+    background-color: #297FE5;
+    color: white;
+    border-color: transparent;
+}
+
+.email-icon {
+    vertical-align: middle;
+    padding-right: 7px;
+}
+
+.linkedIn-icon {
+    vertical-align: middle;
+    padding-right: 7px;
+}
+
+h1 {
+    color: #2B283A;
+    margin-bottom: -20px;
+}
+
+h5 {
+    color: #F47D27;
 }
