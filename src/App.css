@@ -109,3 +109,19 @@ footer {
 a {
     padding: 20px;
 }
+
+a:link {
+    color: #918E9B;
+}
+
+a:visited {
+    color: #ebeaf0;
+}
+
+a:hover {
+    color: rgb(33, 33, 110);
+}
+
+a:active {
+    color: rgb(216, 32, 32);
+}
