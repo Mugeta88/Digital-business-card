@@ -12,11 +12,12 @@ body {
 .card-container {
     background-color: #FFFFFF;
     width: 350px;
-    height: 800px;
+    height: 900px;
     border-radius: 12px;
     text-align: center;
 }
 
+/* PersonalInfo component */
 main > img {
     width: 100%;
     object-fit: cover;
@@ -57,4 +58,23 @@ h1 {
 
 h5 {
     color: #F47D27;
+}
+
+/* About componet */
+.aboutMe-header {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: -8px;
+}
+
+.aboutMe {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #4A4E74;
+    font-size: small;
+}
+
+.aboutMe-section {
+    margin-top: 30px;
 }
