@@ -32,6 +32,7 @@ main > img {
     background-color: white;
     border: #D5D4D8 solid 1px;
     cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5)
 }
 
 .linkedIn-btn {
