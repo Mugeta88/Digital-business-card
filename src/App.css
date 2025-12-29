@@ -31,6 +31,7 @@ main > img {
     border-radius: 7px;
     background-color: white;
     border: #D5D4D8 solid 1px;
+    cursor: pointer;
 }
 
 .linkedIn-btn {
@@ -39,6 +40,7 @@ main > img {
     background-color: #297FE5;
     color: white;
     border-color: transparent;
+    cursor: pointer;
 }
 
 .email-icon {
@@ -115,11 +117,11 @@ a:link {
 }
 
 a:visited {
-    color: #ebeaf0;
+    color: #6d6c71;
 }
 
 a:hover {
-    color: rgb(33, 33, 110);
+    color: rgb(33, 33, 194);
 }
 
 a:active {

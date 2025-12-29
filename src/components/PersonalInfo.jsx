@@ -11,15 +11,19 @@ function PersonalInfo() {
             <h1>Mugeta Mugeta</h1>
             <h5>Full Stack Software Engineer - MERN</h5>
 
-            <button className="email-btn">
-                <MdEmail className="email-icon" size={15} />
-                Email
+            <a href="mailto:mugeta88gmail.com">
+                <button className="email-btn">
+                    <MdEmail className="email-icon" size={15} />
+                    Email
                 </button>
+            </a>
 
-            <button className="linkedIn-btn">
-                <BiLogoLinkedinSquare className="linkedIn-icon" size={17}/>
-                LinkedIn
-                </button>
+            <a href="https://www.linkedin.com/in/mugeta-mugeta-68b486245/" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
+                <button className="linkedIn-btn">
+                    <BiLogoLinkedinSquare className="linkedIn-icon" size={17}/>
+                    LinkedIn
+                </button> 
+            </a>
         </main>
     )
 }
