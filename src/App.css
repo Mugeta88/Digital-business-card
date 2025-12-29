@@ -65,6 +65,7 @@ h5 {
     text-align: left;
     margin-left: 20px;
     margin-bottom: -8px;
+    color: #2B283A;
 }
 
 .aboutMe {
@@ -77,4 +78,21 @@ h5 {
 
 .aboutMe-section {
     margin-top: 30px;
+}
+
+/* Interests component */
+.interests-header {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: -8px;
+    color: #2B283A;
+
+}
+
+.interests {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #4A4E74;
+    font-size: small;
 }
