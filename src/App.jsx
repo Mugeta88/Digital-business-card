@@ -2,6 +2,7 @@ import './App.css'
 import PersonalInfo from './components/PersonalInfo'
 import About from './components/About'
 import Interests from './components/Interests'
+import SocialLinks from './components/Footer'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <PersonalInfo />
         <About />
         <Interests />
+        <SocialLinks />
       </div>
     </>
   )
