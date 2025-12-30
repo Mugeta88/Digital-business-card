@@ -1,17 +1,19 @@
 import { MdEmail } from "react-icons/md";
 import { BiLogoLinkedinSquare } from "react-icons/bi";
+import profilePic from "../assets/profile-pic.jpeg";
+
 
 
 
 function PersonalInfo() {
     return (
         <main>
-            <img src="src/assets/profile-pic.jpeg" alt="" />
+            <img src={profilePic} alt="Profile picture of Mugeta" />
 
             <h1>Mugeta Mugeta</h1>
             <h5>Full Stack Software Engineer - MERN</h5>
 
-            <a href="mailto:mugeta88gmail.com">
+            <a href="mailto:mugeta88@gmail.com">
                 <button className="email-btn">
                     <MdEmail className="email-icon" size={15} />
                     Email
